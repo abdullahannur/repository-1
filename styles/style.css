@@ -91,7 +91,10 @@ main{
     margin:25px;
 
 }
-.button-hover:hover{
+/* .button-hover:hover{
+    background-color: red;
+} */
+.selection-button:hover{
     background-color: red;
 }
 .filled{
@@ -168,3 +171,62 @@ hr{
     text-decoration: none;
     border: none;
 }
+/* ----------
+responsive design
+   ----------------- */
+       /* for mobile  */
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        width: 500px;
+        height: 1000px;
+    }
+    .section-img{
+        margin-top: 150px;
+    }
+   .blogs{
+    flex-direction: column;
+        
+    }
+    .selection{
+        background-color: white;
+
+    }
+    .blog{
+        flex-direction: row;
+    }
+    .blog-9{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        margin-top:1800px;
+    }
+
+
+}
+
+      /* for tablets */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    .blogs{
+        flex-direction: column;
+    }    
+    .selection{
+        flex-direction: row;
+        background-color:white;
+    }
+    .blog{
+        flex-direction: row;
+    }
+    .blog-9{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .hidden{
+        display: none;
+    }
+
+}
+
+
+
