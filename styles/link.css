@@ -1,0 +1,32 @@
+.blog{
+    height: 200px;
+}
+
+.blog-flag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+   
+}
+.blog-vs {
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+.blog-contant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-end{
+    background-color: #161616 ;
+    height: 300px;
+    /* display: flex; */
+    flex-direction: column;
+    padding-top:150px;
+    margin-top: 50px;
+}
