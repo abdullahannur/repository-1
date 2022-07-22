@@ -44,6 +44,10 @@ main{
     border-radius: 5px;
     padding: 10px 15px 10px 15px ;
     border: 1px solid black;}
+
+    .section-button:hover{
+        padding: 20px 30px 20px 30px ;
+    }
   
     .section-img img{
         /* border: 1px solid white; */
@@ -75,6 +79,7 @@ main{
 
 
 }
+
 .selection-button{
     color: black;
     background-color: white;
@@ -84,6 +89,10 @@ main{
     height: 50px;
     width: 180px;
     margin:25px;
+
+}
+.button-hover:hover{
+    background-color: red;
 }
 .filled{
     background-color: red;
